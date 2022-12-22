@@ -578,6 +578,7 @@ img {
 
 .socials-header {
 	font-weight: 700;
+	margin-bottom: 20px;
 	font-size: 14px;
 	line-height: 1.142;
 	letter-spacing: 0.03em;
@@ -642,6 +643,55 @@ img {
 
 .footer-div-second {
 	margin-top: 12px;
+}
+
+.footer-div-third {
+	margin-left: 90px;
+	margin-top: 12px;
+}
+
+.footer-input {
+	position: relative;
+}
+
+.input-email {
+	margin-right: 12px;
+	width: 358px;
+	height: 50px;
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	background-color: #2F303A;
+	border-radius: 4px;
+	padding-left: 16px;
+	color: rgba(255, 255, 255, 0.6);
+}
+
+.input-email::placeholder {
+	color: rgba(255, 255, 255, 0.6);
+}
+
+.input-newsletter {
+	position: relative;
+	width: 222px;
+	height: 50px;
+	border-radius: 4px;
+	background-color: var(--color-addition);
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.875;
+	text-align: center;
+	color: var(--secondary-color);
+}
+
+.input-newsletter::placeholder {
+	color: var(--secondary-color);
+}
+
+.footer-icon {
+	position: absolute;
+	top: 50%;
+	left: 542px;
+	transform: translateY(-50%);
+	fill: var(--secondary-color);
 }
 
 .backdrop {
