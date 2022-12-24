@@ -156,6 +156,7 @@ img {
 	background: var(--color-addition);
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 	border-radius: 4px;
+	border: none;
 	letter-spacing: 0.06em;
 	font-weight: 700;
 	font-size: 16px;
@@ -650,6 +651,35 @@ img {
 	margin-top: 12px;
 }
 
+.button-letter {
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	padding-right: 30px;
+	font-family: 'Roboto';
+	height: 50px;
+	width: 200px;
+	background: var(--color-addition);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	border-radius: 4px;
+	border: none;
+	letter-spacing: 0.06em;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.875;
+	color: var(--secondary-color);
+	cursor: pointer;
+	transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) color;
+}
+
+.letter-icon {
+	position: absolute;
+	left: 150px;
+	top: 50%;
+	transform: translateY(-50%);
+	fill: var(--secondary-color);
+}
+
 .footer-input {
 	position: relative;
 }
@@ -734,13 +764,20 @@ img {
 }
 
 .btn-cross {
+	width: 30px;
+	height: 30px;
 	position: absolute;
 	top: 17px;
-	right:17px;
+	right: 17px;
+	cursor: pointer;
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	border-radius: 50%;
 	background-color: var(--secondary-color);
 	transition: 2520ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-croos-icon:hover {
+	fill: var(--color-addition);
 }
 
 .form-title {
@@ -831,6 +868,7 @@ img {
 
 .checkbox {
 	display: flex;
+	margin-left: 13px;
 }
 
 .checkbox-icon {
@@ -852,6 +890,7 @@ img {
 	position: relative;
 	padding-left: 24px;
 }
+
 .form-submit {
 	display: block;
 	margin: 0 auto;
