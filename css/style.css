@@ -652,9 +652,10 @@ img {
 }
 
 .button-letter {
-	position: relative;
+	position: absolute;
 	display: block;
 	margin: 0 auto;
+	margin-left: 400px;
 	padding-right: 30px;
 	font-family: 'Roboto';
 	height: 50px;
@@ -680,8 +681,9 @@ img {
 	fill: var(--secondary-color);
 }
 
-.footer-input {
-	position: relative;
+
+.footer-letter {
+	display: flex;
 }
 
 .input-email {
