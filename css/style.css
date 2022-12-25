@@ -874,7 +874,6 @@ img {
 
 .checkbox-icon {
 	position: absolute;
-	margin-top: -2px;
 	margin-right: 7px;
 	fill: transparent;
 	border: 2px solid black;
@@ -890,6 +889,7 @@ img {
 .checkbox-label {
 	position: relative;
 	padding-left: 24px;
+	font-size: 14px;
 }
 
 .form-submit {
